@@ -13,9 +13,9 @@ See https://github.com/icsharpcode/CodeConverter for a pre-built command line, v
 </Description>
     <Product>Code Converter for C# to/from VB.NET</Product>
     <Copyright>Copyright (c) 2017-2020 AlphaSierraPapa for the CodeConverter team</Copyright>
-    <AssemblyVersion>8.2.2.0</AssemblyVersion>
-    <FileVersion>8.2.2.0</FileVersion>
-    <Version>8.2.2</Version>
+    <AssemblyVersion>8.2.3.0</AssemblyVersion>
+    <FileVersion>8.2.3.0</FileVersion>
+    <Version>8.2.3</Version>
     <PackageId>ICSharpCode.CodeConverter</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -35,19 +35,19 @@ See https://github.com/icsharpcode/CodeConverter for a pre-built command line, v
     <EmbeddedResource Include="Shared\DefaultReferences.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="2.8.2" />
-    <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces" Version="2.8.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="3.9.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces" Version="3.9.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Composition" Version="15.8.98" />
-    <PackageReference Include="Microsoft.VisualStudio.Threading" Version="15.8.122" />
+    <PackageReference Include="Microsoft.VisualStudio.Composition" Version="16.4.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Threading" Version="16.9.54" />
     <PackageReference Include="System.Globalization.Extensions" Version="4.3.0" />
-    <PackageReference Include="System.Linq.Async" Version="4.0.0" />
-    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="4.6.0">
+    <PackageReference Include="System.Linq.Async" Version="5.0.0" />
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="5.0.0">
       <IncludeAssets>all</IncludeAssets>
     </PackageReference>
   </ItemGroup>
